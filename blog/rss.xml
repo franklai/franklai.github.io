@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Frank 的五四三 Blog</title>
+        <link>https://franklai.github.io/blog</link>
+        <description>Frank 的五四三 Blog</description>
+        <lastBuildDate>Sun, 23 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[markdown 想要 br 換行效果]]></title>
+            <link>https://franklai.github.io/blog/2022/01/23/markdown-br-linebreak</link>
+            <guid>/2022/01/23/markdown-br-linebreak</guid>
+            <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[今天才知道…]]></description>
+            <content:encoded><![CDATA[<p>今天才知道…</p><p><a href="https://stackoverflow.com/a/33191810">https://stackoverflow.com/a/33191810</a><br/>
+<!-- -->How to add new line in Markdown presentation?</p><p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[用 Docusaurus 寫 blog]]></title>
+            <link>https://franklai.github.io/blog/2022/01/23/using-docusaurus-for-blog</link>
+            <guid>/2022/01/23/using-docusaurus-for-blog</guid>
+            <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[終於來嘗試一下]]></description>
+            <content:encoded><![CDATA[<p>終於來嘗試一下</p><p>架到 GitHub Pages 上</p><p>貼歌詞，可以 embed YouTube video</p><p>歌詞看起來用 code block 比較方便，還可以 copy to clipboard，不過就是會變黑底啦</p><p>然後才學到如何可以 br 換行效果…</p><p>h1 目前標題感覺字有點大，不過先試看看吧</p><p>那…這樣 Blogger 就先停嗎？</p><p>把一些舊文都搬過來</p><p>是說日期是從檔名來的，但同一天有多篇文章的話，排序是？看起來可能是 alphabet</p><p>然後這篇是用 GitHub editor 打的</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Parvel v2]]></title>
+            <link>https://franklai.github.io/blog/2022/01/22/parcel-v2</link>
+            <guid>/2022/01/22/parcel-v2</guid>
+            <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[當初好像有用 Parcel v1 寫過小 project]]></description>
+            <content:encoded><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p><p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p><p>看到 2021 年 10 月出 v2</p><p><a href="https://parceljs.org/blog/v2/">Announcing Parcel v2!</a></p><p>including a new JavaScript compiler written in Rust</p><p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[sshfs on Win 10]]></title>
+            <link>https://franklai.github.io/blog/2022/01/22/sshfs-on-win10</link>
+            <guid>/2022/01/22/sshfs-on-win10</guid>
+            <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[又得遠端啦]]></description>
+            <content:encoded><![CDATA[<p>又得遠端啦</p><p>這次嘗試用以下組合</p><ul><li>SSHFS-Win<ul><li><a href="https://github.com/billziss-gh/sshfs-win">https://github.com/billziss-gh/sshfs-win</a></li></ul></li><li>WinFsp<ul><li><a href="https://github.com/billziss-gh/winfsp">https://github.com/billziss-gh/winfsp</a></li></ul></li><li>SSHFS-Win Manager<ul><li><a href="https://github.com/evsar3/sshfs-win-manager">https://github.com/evsar3/sshfs-win-manager</a></li></ul></li></ul><p>用 SSHFS-Win Manager，有個 GUI 可以設定也是蠻方便的</p><p>自己用連線網路磁碟機，就有遇到路徑寫法問題</p><p>一般是寫 <code>\\sshfs\[LOCUSER=]REMUSER@HOST[!PORT][\PATH]</code></p><p>路徑是相對於 home path</p><p>要從根目錄開始的話，要用 sshfs.r</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[歌詞] ずっと真夜中でいいのに。 - 暗く黒く]]></title>
+            <link>https://franklai.github.io/blog/2022/01/22/zutomayo-darken</link>
+            <guid>/2022/01/22/zutomayo-darken</guid>
+            <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/dcOwj-QE_ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe><pre><code>暗く黒く
+
+歌手：ずっと真夜中でいいのに。
+作詞：ACAね
+作曲：ACAね
+
+
+触れたくて　震えてく声が
+勘違いしては　自分になっていく
+成りたくて　鳴らせないが息絶えても
+確かめるまで　終わらせないで
+
+ただ黙っていた
+想ってるほど　堪えられた
+冷え切った視界で　今日を燃やしてく
+
+未読にした　美学でよかった
+だいじょばないって言えた程
+些細な痛み　割り切ったけど
+君に出会って　赦されてく
+
+全然取れやしない
+やつが暗く黒く　塗り潰したとしても
+決して奪われない
+インスタントな存在でも
+見えなくても　此処にある
+
+守ってたいなんて　一切合切　自我の煩悩で
+控えめになって　心をポイ捨てしても
+きっと違うけど
+学んでしまった　気づいてしまった
+備えられた孤独が　こんなに尊いならば
+疑う必要はない　信じてる必要もない
+連鎖よ続け
+
+在り来たりな儀式も　お上手に
+切磋琢磨に踊れ　秒読み
+トライアングルな縁に浸っても
+何処に居ても場所　疑うけど
+鍛えられた細胞　崩してよ
+この人生が有ること　許してよ
+今まで見てきたもの　全部背負って
+生きてく怪我させて
+
+守ってたいなんて　一切合切　自我の煩悩で
+控えめになって　心をポイ捨てしても
+きっと違うけど
+学んでしまった　気づいてしまった
+備えられた孤独が　こんなに尊いならば
+疑う必要はない　信じてる必要もない
+連鎖よ続け
+
+全然取れやしない
+やつが暗く黒く　塗り潰したとしても
+決して奪われない
+インスタントな世界でも
+触れなくても　此処にある
+
+叶っていたいも　勝っていたいも
+時間の翻弄で
+目指してた果てに　行き着いた先
+満たす孤独も　あるのかな
+止まってしまって　わかりすぎたって
+選び変える勇気が　こんなに尊いならば
+疑う必要はない　騙し合う必要もない
+連鎖よ続け
+</code></pre>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Media Player Classic - Home Cinema 1.9.18]]></title>
+            <link>https://franklai.github.io/blog/2022/01/13/mpc-hc</link>
+            <guid>/2022/01/13/mpc-hc</guid>
+            <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[原來 mpc-hc 後來有 fork 啊…]]></description>
+            <content:encoded><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p><p><a href="https://github.com/clsid2/mpc-hc">https://github.com/clsid2/mpc-hc</a></p><p>根據 wikipedia 寫的<br/>
+<a href="https://en.wikipedia.org/wiki/Media_Player_Classic">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p><p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p><p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p><p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p><p>另一個 MPC-BE 也還有更新，是在 sourceforge</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[252],{5107:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/win-10","name":"Win10","count":1,"permalink":"/blog/tags/win-10"}')}}]);
