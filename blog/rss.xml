@@ -13,8 +13,9 @@
             <guid>/2022/01/23/markdown-br-linebreak</guid>
             <pubDate>Sun, 23 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[今天才知道…]]></description>
-            <content:encoded><![CDATA[<p>今天才知道…</p><p><a href="https://stackoverflow.com/a/33191810">https://stackoverflow.com/a/33191810</a><br/>
+            <content:encoded><![CDATA[<p>今天才知道…</p><p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/a/33191810</a><br>
 <!-- -->How to add new line in Markdown presentation?</p><p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content:encoded>
+            <category>Markdown</category>
         </item>
         <item>
             <title><![CDATA[用 Docusaurus 寫 blog]]></title>
@@ -30,7 +31,9 @@
             <guid>/2022/01/22/parcel-v2</guid>
             <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[當初好像有用 Parcel v1 寫過小 project]]></description>
-            <content:encoded><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p><p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p><p>看到 2021 年 10 月出 v2</p><p><a href="https://parceljs.org/blog/v2/">Announcing Parcel v2!</a></p><p>including a new JavaScript compiler written in Rust</p><p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p><p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p><p>看到 2021 年 10 月出 v2</p><p><a href="https://parceljs.org/blog/v2/" target="_blank" rel="noopener noreferrer">Announcing Parcel v2!</a></p><p>including a new JavaScript compiler written in Rust</p><p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content:encoded>
+            <category>JavaScript</category>
+            <category>Node.js</category>
         </item>
         <item>
             <title><![CDATA[sshfs on Win 10]]></title>
@@ -38,80 +41,17 @@
             <guid>/2022/01/22/sshfs-on-win10</guid>
             <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[又得遠端啦]]></description>
-            <content:encoded><![CDATA[<p>又得遠端啦</p><p>這次嘗試用以下組合</p><ul><li>SSHFS-Win<ul><li><a href="https://github.com/billziss-gh/sshfs-win">https://github.com/billziss-gh/sshfs-win</a></li></ul></li><li>WinFsp<ul><li><a href="https://github.com/billziss-gh/winfsp">https://github.com/billziss-gh/winfsp</a></li></ul></li><li>SSHFS-Win Manager<ul><li><a href="https://github.com/evsar3/sshfs-win-manager">https://github.com/evsar3/sshfs-win-manager</a></li></ul></li></ul><p>用 SSHFS-Win Manager，有個 GUI 可以設定也是蠻方便的</p><p>自己用連線網路磁碟機，就有遇到路徑寫法問題</p><p>一般是寫 <code>\\sshfs\[LOCUSER=]REMUSER@HOST[!PORT][\PATH]</code></p><p>路徑是相對於 home path</p><p>要從根目錄開始的話，要用 sshfs.r</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>又得遠端啦</p><p>這次嘗試用以下組合</p><ul><li>SSHFS-Win<ul><li><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/sshfs-win</a></li></ul></li><li>WinFsp<ul><li><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/winfsp</a></li></ul></li><li>SSHFS-Win Manager<ul><li><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer">https://github.com/evsar3/sshfs-win-manager</a></li></ul></li></ul><p>用 SSHFS-Win Manager，有個 GUI 可以設定也是蠻方便的</p><p>自己用連線網路磁碟機，就有遇到路徑寫法問題</p><p>一般是寫 <code>\\sshfs\[LOCUSER=]REMUSER@HOST[!PORT][\PATH]</code></p><p>路徑是相對於 home path</p><p>要從根目錄開始的話，要用 sshfs.r</p>]]></content:encoded>
+            <category>Win10</category>
         </item>
         <item>
             <title><![CDATA[[歌詞] ずっと真夜中でいいのに。 - 暗く黒く]]></title>
             <link>https://franklai.github.io/blog/2022/01/22/zutomayo-darken</link>
             <guid>/2022/01/22/zutomayo-darken</guid>
             <pubDate>Sat, 22 Jan 2022 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/dcOwj-QE_ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe><pre><code>暗く黒く
-
-歌手：ずっと真夜中でいいのに。
-作詞：ACAね
-作曲：ACAね
-
-
-触れたくて　震えてく声が
-勘違いしては　自分になっていく
-成りたくて　鳴らせないが息絶えても
-確かめるまで　終わらせないで
-
-ただ黙っていた
-想ってるほど　堪えられた
-冷え切った視界で　今日を燃やしてく
-
-未読にした　美学でよかった
-だいじょばないって言えた程
-些細な痛み　割り切ったけど
-君に出会って　赦されてく
-
-全然取れやしない
-やつが暗く黒く　塗り潰したとしても
-決して奪われない
-インスタントな存在でも
-見えなくても　此処にある
-
-守ってたいなんて　一切合切　自我の煩悩で
-控えめになって　心をポイ捨てしても
-きっと違うけど
-学んでしまった　気づいてしまった
-備えられた孤独が　こんなに尊いならば
-疑う必要はない　信じてる必要もない
-連鎖よ続け
-
-在り来たりな儀式も　お上手に
-切磋琢磨に踊れ　秒読み
-トライアングルな縁に浸っても
-何処に居ても場所　疑うけど
-鍛えられた細胞　崩してよ
-この人生が有ること　許してよ
-今まで見てきたもの　全部背負って
-生きてく怪我させて
-
-守ってたいなんて　一切合切　自我の煩悩で
-控えめになって　心をポイ捨てしても
-きっと違うけど
-学んでしまった　気づいてしまった
-備えられた孤独が　こんなに尊いならば
-疑う必要はない　信じてる必要もない
-連鎖よ続け
-
-全然取れやしない
-やつが暗く黒く　塗り潰したとしても
-決して奪われない
-インスタントな世界でも
-触れなくても　此処にある
-
-叶っていたいも　勝っていたいも
-時間の翻弄で
-目指してた果てに　行き着いた先
-満たす孤独も　あるのかな
-止まってしまって　わかりすぎたって
-選び変える勇気が　こんなに尊いならば
-疑う必要はない　騙し合う必要もない
-連鎖よ続け
-</code></pre>]]></content:encoded>
+            <content:encoded><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/dcOwj-QE_ZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe><div class="codeBlockContainer_I0IT theme-code-block"><div class="codeBlockContent_wNvx"><pre tabindex="0" class="prism-code language-text codeBlock_jd64 thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#bfc7d5"><span class="token plain">暗く黒く</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">歌手：ずっと真夜中でいいのに。</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">作詞：ACAね</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">作曲：ACAね</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">触れたくて　震えてく声が</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">勘違いしては　自分になっていく</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">成りたくて　鳴らせないが息絶えても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">確かめるまで　終わらせないで</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ただ黙っていた</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">想ってるほど　堪えられた</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">冷え切った視界で　今日を燃やしてく</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">未読にした　美学でよかった</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">だいじょばないって言えた程</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">些細な痛み　割り切ったけど</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">君に出会って　赦されてく</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">全然取れやしない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">やつが暗く黒く　塗り潰したとしても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">決して奪われない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">インスタントな存在でも</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">見えなくても　此処にある</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">守ってたいなんて　一切合切　自我の煩悩で</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">控えめになって　心をポイ捨てしても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">きっと違うけど</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">学んでしまった　気づいてしまった</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">備えられた孤独が　こんなに尊いならば</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">疑う必要はない　信じてる必要もない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">連鎖よ続け</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">在り来たりな儀式も　お上手に</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">切磋琢磨に踊れ　秒読み</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">トライアングルな縁に浸っても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">何処に居ても場所　疑うけど</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">鍛えられた細胞　崩してよ</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">この人生が有ること　許してよ</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">今まで見てきたもの　全部背負って</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">生きてく怪我させて</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">守ってたいなんて　一切合切　自我の煩悩で</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">控えめになって　心をポイ捨てしても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">きっと違うけど</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">学んでしまった　気づいてしまった</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">備えられた孤独が　こんなに尊いならば</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">疑う必要はない　信じてる必要もない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">連鎖よ続け</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">全然取れやしない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">やつが暗く黒く　塗り潰したとしても</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">決して奪われない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">インスタントな世界でも</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">触れなくても　此処にある</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">叶っていたいも　勝っていたいも</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">時間の翻弄で</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">目指してた果てに　行き着いた先</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">満たす孤独も　あるのかな</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">止まってしまって　わかりすぎたって</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">選び変える勇気が　こんなに尊いならば</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">疑う必要はない　騙し合う必要もない</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">連鎖よ続け</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div>]]></content:encoded>
+            <category>музыка</category>
+            <category>ずっと真夜中でいいのに。</category>
         </item>
         <item>
             <title><![CDATA[Media Player Classic - Home Cinema 1.9.18]]></title>
@@ -119,8 +59,8 @@
             <guid>/2022/01/13/mpc-hc</guid>
             <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[原來 mpc-hc 後來有 fork 啊…]]></description>
-            <content:encoded><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p><p><a href="https://github.com/clsid2/mpc-hc">https://github.com/clsid2/mpc-hc</a></p><p>根據 wikipedia 寫的<br/>
-<a href="https://en.wikipedia.org/wiki/Media_Player_Classic">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p><p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p><p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p><p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p><p>另一個 MPC-BE 也還有更新，是在 sourceforge</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p><p><a href="https://github.com/clsid2/mpc-hc" target="_blank" rel="noopener noreferrer">https://github.com/clsid2/mpc-hc</a></p><p>根據 wikipedia 寫的<br>
+<a href="https://en.wikipedia.org/wiki/Media_Player_Classic" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p><p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p><p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p><p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p><p>另一個 MPC-BE 也還有更新，是在 sourceforge</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
