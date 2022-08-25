@@ -1,7 +1,11 @@
 .main-wrapper {
-  background-image: url("/lake_kawaguchi.jpg");
+  background-image: url("/ginza-blurred.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.main-wrapper .container > div {
+  padding: 0 8px;
 }
 
 main .col:first-child {
