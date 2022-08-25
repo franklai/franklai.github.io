@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[93],{7453:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/node-js","name":"Node.js","count":1,"permalink":"/blog/tags/node-js"}')}}]);

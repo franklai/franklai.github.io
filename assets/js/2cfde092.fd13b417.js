@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[428],{4989:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/markdown","name":"Markdown","count":1,"permalink":"/blog/tags/markdown"}')}}]);

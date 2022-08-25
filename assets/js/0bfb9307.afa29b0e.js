@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[484],{4559:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/\u043c\u0443\u0437\u044b\u043a\u0430","name":"\u043c\u0443\u0437\u044b\u043a\u0430","count":1,"permalink":"/blog/tags/\u043c\u0443\u0437\u044b\u043a\u0430"}')}}]);
