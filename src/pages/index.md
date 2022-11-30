@@ -31,6 +31,7 @@ import TabItem from '@theme/TabItem';
 
 ### JavaScript
 
+- [Lyric Get@Vercel](https://franks543-lyric-get.vercel.app/)
 - [Lyric Get@Azure](https://franks543-lyric-get.azurewebsites.net/)
 - [torrent-rss](https://franklai.github.io/torrent-rss/)
 - [台鐵時刻查詢](https://franklai.github.io/playground/railway/)
