@@ -9,13 +9,6 @@ import TabItem from '@theme/TabItem';
 <Tabs className="unique-tabs">
 <TabItem value="home" label="Home">
 
-### Blog
-
-- [Frank 的五四三](https://franks543.blogspot.com/)
-- [Японская музыка](https://fujirou.blogspot.com/)
-- [A champagne supernova in the sky](https://fujirou2.blogspot.com/)
-- [Frank 的五四三 (CS 分站)](https://franklai.blogspot.com/)
-
 ### Social Network
 
 - [twitter](https://twitter.com/franklai_tw)
