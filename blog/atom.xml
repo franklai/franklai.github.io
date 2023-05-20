@@ -8,7 +8,7 @@
     <subtitle>Frank 的五四三 Blog</subtitle>
     <entry>
         <title type="html"><![CDATA[markdown 想要 br 換行效果]]></title>
-        <id>/2022/01/23/markdown-br-linebreak</id>
+        <id>https://franklai.github.io/blog/2022/01/23/markdown-br-linebreak</id>
         <link href="https://franklai.github.io/blog/2022/01/23/markdown-br-linebreak"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[今天才知道…]]></summary>
@@ -18,7 +18,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[用 Docusaurus 寫 blog]]></title>
-        <id>/2022/01/23/using-docusaurus-for-blog</id>
+        <id>https://franklai.github.io/blog/2022/01/23/using-docusaurus-for-blog</id>
         <link href="https://franklai.github.io/blog/2022/01/23/using-docusaurus-for-blog"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[終於來嘗試一下]]></summary>
@@ -26,7 +26,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Parvel v2]]></title>
-        <id>/2022/01/22/parcel-v2</id>
+        <id>https://franklai.github.io/blog/2022/01/22/parcel-v2</id>
         <link href="https://franklai.github.io/blog/2022/01/22/parcel-v2"/>
         <updated>2022-01-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[當初好像有用 Parcel v1 寫過小 project]]></summary>
@@ -36,7 +36,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[sshfs on Win 10]]></title>
-        <id>/2022/01/22/sshfs-on-win10</id>
+        <id>https://franklai.github.io/blog/2022/01/22/sshfs-on-win10</id>
         <link href="https://franklai.github.io/blog/2022/01/22/sshfs-on-win10"/>
         <updated>2022-01-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[又得遠端啦]]></summary>
@@ -45,7 +45,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Media Player Classic - Home Cinema 1.9.18]]></title>
-        <id>/2022/01/13/mpc-hc</id>
+        <id>https://franklai.github.io/blog/2022/01/13/mpc-hc</id>
         <link href="https://franklai.github.io/blog/2022/01/13/mpc-hc"/>
         <updated>2022-01-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原來 mpc-hc 後來有 fork 啊…]]></summary>
