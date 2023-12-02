@@ -4,10 +4,24 @@
         <title>Frank 的五四三 Blog</title>
         <link>https://franklai.github.io/blog</link>
         <description>Frank 的五四三 Blog</description>
-        <lastBuildDate>Sun, 23 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Docusaurus v3]]></title>
+            <link>https://franklai.github.io/blog/2023/12/02/docusaurus-v3</link>
+            <guid>https://franklai.github.io/blog/2023/12/02/docusaurus-v3</guid>
+            <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[在 2023 年 10 月底發表]]></description>
+            <content:encoded><![CDATA[<p>在 2023 年 10 月底發表</p>
+<p><a href="https://docusaurus.io/blog/releases/3.0" target="_blank" rel="noopener noreferrer">https://docusaurus.io/blog/releases/3.0</a></p>
+<p>剛才把網站升級一下，馬上就遇到 search 也需要升級，然後 config 要調整</p>
+<p>原來從 plugins 搬到 themes 超過一年了啊…</p>
+<p>然後搞笑地升級 <code>prism-react-renderer</code> 後，沒有測試，config 又炸…</p>]]></content:encoded>
+            <category>JavaScript</category>
+            <category>Node.js</category>
+        </item>
         <item>
             <title><![CDATA[markdown 想要 br 換行效果]]></title>
             <link>https://franklai.github.io/blog/2022/01/23/markdown-br-linebreak</link>
