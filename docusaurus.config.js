@@ -28,7 +28,16 @@ const config = {
       }),
     ],
   ],
-  plugins: [require.resolve("@easyops-cn/docusaurus-search-local")],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        indexDocs: false,
+        language: ["en", "zh"],
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: "Frank 的五四三",
