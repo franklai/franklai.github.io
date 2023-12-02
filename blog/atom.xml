@@ -12,8 +12,10 @@
         <link href="https://franklai.github.io/blog/2022/01/23/markdown-br-linebreak"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[今天才知道…]]></summary>
-        <content type="html"><![CDATA[<p>今天才知道…</p><p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/a/33191810</a><br>
-<!-- -->How to add new line in Markdown presentation?</p><p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content>
+        <content type="html"><![CDATA[<p>今天才知道…</p>
+<p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/a/33191810</a><br>
+<!-- -->How to add new line in Markdown presentation?</p>
+<p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content>
         <category label="Markdown" term="Markdown"/>
     </entry>
     <entry>
@@ -22,7 +24,16 @@
         <link href="https://franklai.github.io/blog/2022/01/23/using-docusaurus-for-blog"/>
         <updated>2022-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[終於來嘗試一下]]></summary>
-        <content type="html"><![CDATA[<p>終於來嘗試一下</p><p>架到 GitHub Pages 上</p><p>貼歌詞，可以 embed YouTube video</p><p>歌詞看起來用 code block 比較方便，還可以 copy to clipboard，不過就是會變黑底啦</p><p>然後才學到如何可以 br 換行效果…</p><p>h1 目前標題感覺字有點大，不過先試看看吧</p><p>那…這樣 Blogger 就先停嗎？</p><p>把一些舊文都搬過來</p><p>是說日期是從檔名來的，但同一天有多篇文章的話，排序是？看起來可能是 alphabet</p><p>然後這篇是用 GitHub editor 打的</p>]]></content>
+        <content type="html"><![CDATA[<p>終於來嘗試一下</p>
+<p>架到 GitHub Pages 上</p>
+<p>貼歌詞，可以 embed YouTube video</p>
+<p>歌詞看起來用 code block 比較方便，還可以 copy to clipboard，不過就是會變黑底啦</p>
+<p>然後才學到如何可以 br 換行效果…</p>
+<p>h1 目前標題感覺字有點大，不過先試看看吧</p>
+<p>那…這樣 Blogger 就先停嗎？</p>
+<p>把一些舊文都搬過來</p>
+<p>是說日期是從檔名來的，但同一天有多篇文章的話，排序是？看起來可能是 alphabet</p>
+<p>然後這篇是用 GitHub editor 打的</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Parvel v2]]></title>
@@ -30,7 +41,12 @@
         <link href="https://franklai.github.io/blog/2022/01/22/parcel-v2"/>
         <updated>2022-01-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[當初好像有用 Parcel v1 寫過小 project]]></summary>
-        <content type="html"><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p><p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p><p>看到 2021 年 10 月出 v2</p><p><a href="https://parceljs.org/blog/v2/" target="_blank" rel="noopener noreferrer">Announcing Parcel v2!</a></p><p>including a new JavaScript compiler written in Rust</p><p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content>
+        <content type="html"><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p>
+<p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p>
+<p>看到 2021 年 10 月出 v2</p>
+<p><a href="https://parceljs.org/blog/v2/" target="_blank" rel="noopener noreferrer">Announcing Parcel v2!</a></p>
+<p>including a new JavaScript compiler written in Rust</p>
+<p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content>
         <category label="JavaScript" term="JavaScript"/>
         <category label="Node.js" term="Node.js"/>
     </entry>
@@ -40,7 +56,30 @@
         <link href="https://franklai.github.io/blog/2022/01/22/sshfs-on-win10"/>
         <updated>2022-01-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[又得遠端啦]]></summary>
-        <content type="html"><![CDATA[<p>又得遠端啦</p><p>這次嘗試用以下組合</p><ul><li>SSHFS-Win<ul><li><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/sshfs-win</a></li></ul></li><li>WinFsp<ul><li><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/winfsp</a></li></ul></li><li>SSHFS-Win Manager<ul><li><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer">https://github.com/evsar3/sshfs-win-manager</a></li></ul></li></ul><p>用 SSHFS-Win Manager，有個 GUI 可以設定也是蠻方便的</p><p>自己用連線網路磁碟機，就有遇到路徑寫法問題</p><p>一般是寫 <code>\\sshfs\[LOCUSER=]REMUSER@HOST[!PORT][\PATH]</code></p><p>路徑是相對於 home path</p><p>要從根目錄開始的話，要用 sshfs.r</p>]]></content>
+        <content type="html"><![CDATA[<p>又得遠端啦</p>
+<p>這次嘗試用以下組合</p>
+<ul>
+<li>SSHFS-Win<!-- -->
+<ul>
+<li><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/sshfs-win</a></li>
+</ul>
+</li>
+<li>WinFsp<!-- -->
+<ul>
+<li><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/winfsp</a></li>
+</ul>
+</li>
+<li>SSHFS-Win Manager<!-- -->
+<ul>
+<li><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer">https://github.com/evsar3/sshfs-win-manager</a></li>
+</ul>
+</li>
+</ul>
+<p>用 SSHFS-Win Manager，有個 GUI 可以設定也是蠻方便的</p>
+<p>自己用連線網路磁碟機，就有遇到路徑寫法問題</p>
+<p>一般是寫 <code>\\sshfs\[LOCUSER=]REMUSER@HOST[!PORT][\PATH]</code></p>
+<p>路徑是相對於 home path</p>
+<p>要從根目錄開始的話，要用 sshfs.r</p>]]></content>
         <category label="Win10" term="Win10"/>
     </entry>
     <entry>
@@ -49,7 +88,13 @@
         <link href="https://franklai.github.io/blog/2022/01/13/mpc-hc"/>
         <updated>2022-01-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原來 mpc-hc 後來有 fork 啊…]]></summary>
-        <content type="html"><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p><p><a href="https://github.com/clsid2/mpc-hc" target="_blank" rel="noopener noreferrer">https://github.com/clsid2/mpc-hc</a></p><p>根據 wikipedia 寫的<br>
-<a href="https://en.wikipedia.org/wiki/Media_Player_Classic" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p><p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p><p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p><p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p><p>另一個 MPC-BE 也還有更新，是在 sourceforge</p>]]></content>
+        <content type="html"><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p>
+<p><a href="https://github.com/clsid2/mpc-hc" target="_blank" rel="noopener noreferrer">https://github.com/clsid2/mpc-hc</a></p>
+<p>根據 wikipedia 寫的<br>
+<a href="https://en.wikipedia.org/wiki/Media_Player_Classic" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p>
+<p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p>
+<p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p>
+<p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p>
+<p>另一個 MPC-BE 也還有更新，是在 sourceforge</p>]]></content>
     </entry>
 </feed>
