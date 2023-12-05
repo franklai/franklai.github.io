@@ -30,7 +30,7 @@
             <description><![CDATA[今天才知道…]]></description>
             <content:encoded><![CDATA[<p>今天才知道…</p>
 <p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/a/33191810</a><br>
-<!-- -->How to add new line in Markdown presentation?</p>
+How to add new line in Markdown presentation?</p>
 <p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content:encoded>
             <category>Markdown</category>
         </item>
@@ -75,17 +75,17 @@
             <content:encoded><![CDATA[<p>又得遠端啦</p>
 <p>這次嘗試用以下組合</p>
 <ul>
-<li>SSHFS-Win<!-- -->
+<li>SSHFS-Win
 <ul>
 <li><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/sshfs-win</a></li>
 </ul>
 </li>
-<li>WinFsp<!-- -->
+<li>WinFsp
 <ul>
 <li><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/winfsp</a></li>
 </ul>
 </li>
-<li>SSHFS-Win Manager<!-- -->
+<li>SSHFS-Win Manager
 <ul>
 <li><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer">https://github.com/evsar3/sshfs-win-manager</a></li>
 </ul>
