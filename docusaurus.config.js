@@ -12,6 +12,9 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  markdown: {
+    format: 'detect',
+  },
   presets: [
     [
       "classic",
