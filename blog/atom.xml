@@ -2,10 +2,173 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://franklai.github.io/blog</id>
     <title>Frank 的五四三 Blog</title>
-    <updated>2023-12-02T00:00:00.000Z</updated>
+    <updated>2023-12-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://franklai.github.io/blog"/>
     <subtitle>Frank 的五四三 Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[雲端空間價格 2023-12]]></title>
+        <id>https://franklai.github.io/blog/2023/12/08/cloud-space-price</id>
+        <link href="https://franklai.github.io/blog/2023/12/08/cloud-space-price"/>
+        <updated>2023-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[記錄一下目前價格]]></summary>
+        <content type="html"><![CDATA[<p>記錄一下目前價格</p>
+<ul>
+<li><a href="https://one.google.com/about/plans" target="_blank" rel="noopener noreferrer">Google One</a></li>
+<li><a href="https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans" target="_blank" rel="noopener noreferrer">OneDrive</a></li>
+<li><a href="https://support.apple.com/HT201238" target="_blank" rel="noopener noreferrer">iCloud+</a></li>
+<li><a href="https://www.dropbox.com/plans" target="_blank" rel="noopener noreferrer">Dropbox</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="google-one">Google One<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#google-one" class="hash-link" aria-label="Direct link to Google One" title="Direct link to Google One">​</a></h3>
+<p>前 3 個月優惠就不寫了</p>
+<p>Google One 可以選擇月繳或年繳，以下價格是年繳</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">-</td><td style="text-align:right">Free</td><td style="text-align:right">15 GB</td></tr><tr><td style="text-align:center">基本 Basic</td><td style="text-align:right">$650</td><td style="text-align:right">100 GB</td></tr><tr><td style="text-align:center">標準 Standard</td><td style="text-align:right">$900</td><td style="text-align:right">200 GB</td></tr><tr><td style="text-align:center">進階 Premium</td><td style="text-align:right">$3300</td><td style="text-align:right">2 TB</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="onedrive">OneDrive<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#onedrive" class="hash-link" aria-label="Direct link to OneDrive" title="Direct link to OneDrive">​</a></h3>
+<p>分成基本版 (Basic)、個人版 (Personal)、家用版 (Family)</p>
+<p>其中個人版與家用版包含 Office (Word, Excel, PowerPoint, ...)，價格高出不少</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">-</td><td style="text-align:right">Free</td><td style="text-align:right">5 GB</td></tr><tr><td style="text-align:center">基本 Basic</td><td style="text-align:right">$600</td><td style="text-align:right">100 GB</td></tr><tr><td style="text-align:center">個人 Personal</td><td style="text-align:right">$2190</td><td style="text-align:right">1 TB</td></tr><tr><td style="text-align:center">家用 Family</td><td style="text-align:right">$3190</td><td style="text-align:right">1 TB 六人</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="icloud">iCloud+<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#icloud" class="hash-link" aria-label="Direct link to iCloud+" title="Direct link to iCloud+">​</a></h3>
+<p>iCloud+ 是月繳訂閱，以下用乘於 12 的價格</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:right">Free</td><td style="text-align:right">5 GB</td></tr><tr><td style="text-align:right">$360</td><td style="text-align:right">50 GB</td></tr><tr><td style="text-align:right">$1080</td><td style="text-align:right">200 GB</td></tr><tr><td style="text-align:right">$3600</td><td style="text-align:right">2 TB</td></tr><tr><td style="text-align:right">$10800</td><td style="text-align:right">6 TB</td></tr><tr><td style="text-align:right">$21480</td><td style="text-align:right">12 TB</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dropbox">Dropbox<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#dropbox" class="hash-link" aria-label="Direct link to Dropbox" title="Direct link to Dropbox">​</a></h3>
+<p>只有美金價格</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">Basic</td><td style="text-align:right">Free</td><td style="text-align:right">2 GB</td></tr><tr><td style="text-align:center">Plus</td><td style="text-align:right">每月 US$9.99</td><td style="text-align:right">2 TB</td></tr><tr><td style="text-align:center">Essentials</td><td style="text-align:right">每月 US$18</td><td style="text-align:right">3 TB</td></tr><tr><td style="text-align:center">Business</td><td style="text-align:right">每月 US$20</td><td style="text-align:right">9 TB</td></tr><tr><td style="text-align:center">Business Plus</td><td style="text-align:right">每月 US$26</td><td style="text-align:right">15 TB</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="心得">心得<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#%E5%BF%83%E5%BE%97" class="hash-link" aria-label="Direct link to 心得" title="Direct link to 心得">​</a></h3>
+<p>其實各家提供的方案不太相同，蠻難單純用價格、容量比較</p>
+<p>Google One 的容量是和最多 5 位使用者共用</p>
+<p>OneDrive 家用仍是每人最多 1 TB，和個人相同上限</p>
+<p>Dropbox 的 Business 是寫和工作團隊共享空間</p>]]></content>
+        <category label="JavaScript" term="JavaScript"/>
+        <category label="Node.js" term="Node.js"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus v3]]></title>
         <id>https://franklai.github.io/blog/2023/12/02/docusaurus-v3</id>
