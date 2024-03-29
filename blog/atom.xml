@@ -2,10 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://franklai.github.io/blog</id>
     <title>Frank 的五四三 Blog</title>
-    <updated>2023-12-31T00:00:00.000Z</updated>
+    <updated>2024-03-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://franklai.github.io/blog"/>
     <subtitle>Frank 的五四三 Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[2024 年，新電腦配備]]></title>
+        <id>https://franklai.github.io/blog/2024/03/30/desktop-pc</id>
+        <link href="https://franklai.github.io/blog/2024/03/30/desktop-pc"/>
+        <updated>2024-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在二月的時候，終於買了新 PC！]]></summary>
+        <content type="html"><![CDATA[<p>在二月的時候，終於買了新 PC！</p>
+<p>做個條列式比較？</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>項目</th><th>舊</th><th>新</th></tr></thead><tbody><tr><td>CPU</td><td>Intel Core i5-6400</td><td>Intel Core i5-12400</td></tr><tr><td>MB</td><td>ASUS B150M-A/M.2</td><td>ASUS ROG STRIX B760-A GAMING WIFI D4</td></tr><tr><td>RAM</td><td>Kingston DDR4-2133 16 GB</td><td>TEAM T-CREATE EXPERT DDR4-3200 32G (16G*2)</td></tr><tr><td>SSD</td><td>Intel 330, 120 GB</td><td>KIOXIA Exceria Pro 1TB</td></tr><tr><td>SSD</td><td>Plextor M9PeGN 1 TB, M.2 PCIe</td><td>沿用</td></tr><tr><td>Graphic</td><td>Zotac GTX 1650 Super Twin Fan, GDDR6 4 GB</td><td>MSI 4060 VENTUS 2X BLACK OC 8G</td></tr><tr><td>PSU</td><td>Cooler Master New GX 550W</td><td>SeaSonic Focus GX 650</td></tr><tr><td>Case</td><td>Lian Li ?</td><td>Fractal Design North Charcoal</td></tr><tr><td>Monitor</td><td>MSI MP243</td><td>沿用</td></tr><tr><td>OS</td><td>Microsoft Windows 10 Professional</td><td>Microsoft Windows 11 Home</td></tr></tbody></table>
+<p>分開在欣亞和 PChome 買</p>
+<p>因為欣亞可以用 LINE pay，但會超過回饋上限</p>
+<p>PChome 用拍錢包，買價差不大的，例如作業系統、SSD、PSU</p>
+<p>Win 11 用到目前，比想像中 ok</p>
+<p>不過有些都不是預設值，把介面調整得比較接近 Win 10，例如開始置左、不合併工作列按鈕</p>
+<p>顯卡沒有太衝，但還是買了 n 家</p>
+<p>據說因為 SUPER 系列出了，會有一波降價，不過就是早買早享受啦</p>
+<p>然後換機雖然看了很久，一大衝動是玩帕魯偶爾會頓，但換機後沒開幾次帕魯啊XD</p>
+<p>Fractal Design North Charcoal 這機殼，裝起來其實覺得沒有舊的聯力順手耶，不過現在只裝 SSD 沒硬碟、光碟機，是也不會太麻煩</p>
+<p>正面木條還是蠻不錯</p>
+<p>發熱與散熱，以及風扇聲音，就等夏天吧，但夏天通常就直接開冷氣啊</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023 年底，電腦配備]]></title>
         <id>https://franklai.github.io/blog/2023/12/31/desktop-pc</id>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[9532],{7383:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/win-10","page":1,"postsPerPage":3,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
