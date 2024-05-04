@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfranks543_website=self.webpackChunkfranks543_website||[]).push([[3334],{397:s=>{s.exports=JSON.parse('{"label":"Markdown","permalink":"/blog/tags/markdown","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
