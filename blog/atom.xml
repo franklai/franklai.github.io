@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://franklai.github.io/blog</id>
     <title>Frank 的五四三 Blog</title>
-    <updated>2024-05-01T00:00:00.000Z</updated>
+    <updated>2024-05-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://franklai.github.io/blog"/>
     <subtitle>Frank 的五四三 Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[尋找最佳 Ubuntu APT Repository Mirror]]></title>
+        <id>https://franklai.github.io/blog/2024/05/11/find-best-apt-repository-mirror</id>
+        <link href="https://franklai.github.io/blog/2024/05/11/find-best-apt-repository-mirror"/>
+        <updated>2024-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ubuntu 24.04 出了，又是來安裝 WSL 的時候(！？)]]></summary>
+        <content type="html"><![CDATA[<p>Ubuntu 24.04 出了，又是來安裝 WSL 的時候(！？)</p>
+<ul>
+<li><a href="https://ostechnix.com/how-to-find-best-ubuntu-apt-repository-mirror/" target="_blank" rel="noopener noreferrer">How To Find Best Ubuntu APT Repository Mirror</a></li>
+</ul>
+<p>這篇提到了透過 Ubuntu Software &amp; Updates 的 GUI 介面</p>
+<p>以及 apt-select 和 apt-smart</p>
+<p>這兩個流程上都是先裝 pip</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install python3-pip</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install apt-select</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install --user apt-smart</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>不過這個安裝 pip 就要勞師動眾啊…就 apt 在慢要換，還得先撐過這一堆，有點…</p>
+<p><img decoding="async" loading="lazy" alt="sudo apt install python3-pip" src="https://franklai.github.io/assets/images/2024-05-11-sudo-apt-install-python3-pip-ad4bf440c92eae80e517c75c0a3bc3d8.png" width="1845" height="561" class="img_ev3q"></p>
+<p>來看另一篇 <a href="https://linuxconfig.org/how-to-select-the-fastest-apt-mirror-on-ubuntu-linux" target="_blank" rel="noopener noreferrer">How to select the fastest apt mirror on Ubuntu Linux</a></p>
+<p>mirror protocol</p>
+<p>change <code>deb http://us.archive.ubuntu.com/ubuntu/ focal main restricted</code> to <code>deb mirror://mirrors.ubuntu.com/mirrors.txt focal main restricted</code></p>
+<p>或是直接問</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl mirrors.ubuntu.com/mirrors.txt</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>然後剛才才發現 Ubuntu 24.04 的設定檔改版啦</p>
+<p>變成 <code>/etc/apt/sources.list.d/ubuntu.sources</code></p>
+<p>貼一下 <code>curl mirrors.ubuntu.com/mirrors.txt</code> 的結果</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror01.idc.hinet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ubuntu.cs.nctu.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://free.nchc.org.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu-ports/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror.nwlab.tk/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tw.debian.org/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://tw1.mirror.blendbyte.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.mirror.tw/pub/ubuntu/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ftp.ubuntu-tw.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ubuntu.ccns.ncku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.ossplanet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://archive.ubuntu.com/ubuntu/</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MacBook Air M3, First Day]]></title>
         <id>https://franklai.github.io/blog/2024/05/01/macbook-air-m3-first-day</id>
