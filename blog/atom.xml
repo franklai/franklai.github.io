@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://franklai.github.io/blog</id>
     <title>Frank 的五四三 Blog</title>
-    <updated>2024-05-11T00:00:00.000Z</updated>
+    <updated>2024-06-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://franklai.github.io/blog"/>
     <subtitle>Frank 的五四三 Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Wi-Fi 6 Devices]]></title>
+        <id>https://franklai.github.io/blog/2024/06/01/wifi-6-devices</id>
+        <link href="https://franklai.github.io/blog/2024/06/01/wifi-6-devices"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Wi-Fi 6]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Wi-Fi 6
+<ul>
+<li>Samsung Galaxy S22</li>
+<li>Apple iPhone 14 Pro Max</li>
+<li>Apple iPad Air 5 (2022)</li>
+<li>LG gram Z90Q i5-1240p (2022)</li>
+<li>MacBook Air 13 M3 (2024)</li>
+<li>Apple TV 4K (2022)</li>
+<li>ASUS ROG STRIX B760-A GAMING WIFI D4</li>
+</ul>
+</li>
+<li>Wi-Fi 5
+<ul>
+<li>Apple iPad mini 5 (2019)</li>
+<li>PS4</li>
+<li>Nintendo Switch</li>
+<li>Chromecast with Google TV</li>
+<li>LG OLED evo C2</li>
+</ul>
+</li>
+</ul>
+<p>目前手上設備大概就 iPad mini 5 還沒 Wi-Fi 6</p>
+<p>其他就是電視、主機相關，然後最近都是用 Apple TV，較少用電視本身網路，所以可以考慮個 Wi-Fi 6</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[尋找最佳 Ubuntu APT Repository Mirror]]></title>
         <id>https://franklai.github.io/blog/2024/05/11/find-best-apt-repository-mirror</id>
