@@ -12,6 +12,10 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  future: {
+    experimental_faster: true,
+  },
+
   markdown: {
     format: 'detect',
   },
