@@ -10,14 +10,18 @@ const config = {
   url: "https://franklai.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
 
   future: {
+    v4: true,
     experimental_faster: true,
   },
 
   markdown: {
-    format: 'detect',
+    format: "detect",
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+      onBrokenMarkdownImages: "throw",
+    },
   },
   presets: [
     [
@@ -27,6 +31,7 @@ const config = {
         docs: false,
         blog: {
           postsPerPage: 3,
+          onUntruncatedBlogPosts: "ignore",
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
