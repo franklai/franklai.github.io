@@ -13,24 +13,24 @@
         <updated>2024-06-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- Wi-Fi 6]]></summary>
         <content type="html"><![CDATA[<ul>
-<li>Wi-Fi 6
+<li class="">Wi-Fi 6
 <ul>
-<li>Samsung Galaxy S22</li>
-<li>Apple iPhone 14 Pro Max</li>
-<li>Apple iPad Air 5 (2022)</li>
-<li>LG gram Z90Q i5-1240p (2022)</li>
-<li>MacBook Air 13 M3 (2024)</li>
-<li>Apple TV 4K (2022)</li>
-<li>ASUS ROG STRIX B760-A GAMING WIFI D4</li>
+<li class="">Samsung Galaxy S22</li>
+<li class="">Apple iPhone 14 Pro Max</li>
+<li class="">Apple iPad Air 5 (2022)</li>
+<li class="">LG gram Z90Q i5-1240p (2022)</li>
+<li class="">MacBook Air 13 M3 (2024)</li>
+<li class="">Apple TV 4K (2022)</li>
+<li class="">ASUS ROG STRIX B760-A GAMING WIFI D4</li>
 </ul>
 </li>
-<li>Wi-Fi 5
+<li class="">Wi-Fi 5
 <ul>
-<li>Apple iPad mini 5 (2019)</li>
-<li>PS4</li>
-<li>Nintendo Switch</li>
-<li>Chromecast with Google TV</li>
-<li>LG OLED evo C2</li>
+<li class="">Apple iPad mini 5 (2019)</li>
+<li class="">PS4</li>
+<li class="">Nintendo Switch</li>
+<li class="">Chromecast with Google TV</li>
+<li class="">LG OLED evo C2</li>
 </ul>
 </li>
 </ul>
@@ -45,23 +45,23 @@
         <summary type="html"><![CDATA[Ubuntu 24.04 出了，又是來安裝 WSL 的時候(！？)]]></summary>
         <content type="html"><![CDATA[<p>Ubuntu 24.04 出了，又是來安裝 WSL 的時候(！？)</p>
 <ul>
-<li><a href="https://ostechnix.com/how-to-find-best-ubuntu-apt-repository-mirror/" target="_blank" rel="noopener noreferrer">How To Find Best Ubuntu APT Repository Mirror</a></li>
+<li class=""><a href="https://ostechnix.com/how-to-find-best-ubuntu-apt-repository-mirror/" target="_blank" rel="noopener noreferrer" class="">How To Find Best Ubuntu APT Repository Mirror</a></li>
 </ul>
 <p>這篇提到了透過 Ubuntu Software &amp; Updates 的 GUI 介面</p>
 <p>以及 apt-select 和 apt-smart</p>
 <p>這兩個流程上都是先裝 pip</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install python3-pip</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install apt-select</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install --user apt-smart</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install python3-pip</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install apt-select</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install --user apt-smart</span><br></span></code></pre></div></div>
 <p>不過這個安裝 pip 就要勞師動眾啊…就 apt 在慢要換，還得先撐過這一堆，有點…</p>
 <p><img decoding="async" loading="lazy" alt="sudo apt install python3-pip" src="https://franklai.github.io/assets/images/2024-05-11-sudo-apt-install-python3-pip-ad4bf440c92eae80e517c75c0a3bc3d8.png" width="1845" height="561" class="img_ev3q"></p>
-<p>來看另一篇 <a href="https://linuxconfig.org/how-to-select-the-fastest-apt-mirror-on-ubuntu-linux" target="_blank" rel="noopener noreferrer">How to select the fastest apt mirror on Ubuntu Linux</a></p>
+<p>來看另一篇 <a href="https://linuxconfig.org/how-to-select-the-fastest-apt-mirror-on-ubuntu-linux" target="_blank" rel="noopener noreferrer" class="">How to select the fastest apt mirror on Ubuntu Linux</a></p>
 <p>mirror protocol</p>
 <p>change <code>deb http://us.archive.ubuntu.com/ubuntu/ focal main restricted</code> to <code>deb mirror://mirrors.ubuntu.com/mirrors.txt focal main restricted</code></p>
 <p>或是直接問</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl mirrors.ubuntu.com/mirrors.txt</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl mirrors.ubuntu.com/mirrors.txt</span><br></span></code></pre></div></div>
 <p>然後剛才才發現 Ubuntu 24.04 的設定檔改版啦</p>
 <p>變成 <code>/etc/apt/sources.list.d/ubuntu.sources</code></p>
 <p>貼一下 <code>curl mirrors.ubuntu.com/mirrors.txt</code> 的結果</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror01.idc.hinet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ubuntu.cs.nctu.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://free.nchc.org.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu-ports/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror.nwlab.tk/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tw.debian.org/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://tw1.mirror.blendbyte.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.mirror.tw/pub/ubuntu/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ftp.ubuntu-tw.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ubuntu.ccns.ncku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.ossplanet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://archive.ubuntu.com/ubuntu/</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror01.idc.hinet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ubuntu.cs.nctu.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://free.nchc.org.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu-ports/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://mirror.nwlab.tk/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.tw.debian.org/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://tw1.mirror.blendbyte.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://ftp.mirror.tw/pub/ubuntu/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.twds.com.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ftp.ubuntu-tw.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://ubuntu.ccns.ncku.edu.tw/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://mirror.ossplanet.net/ubuntu/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">http://archive.ubuntu.com/ubuntu/</span><br></span></code></pre></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[MacBook Air M3, First Day]]></title>
@@ -79,12 +79,12 @@
 <p>常用軟體安裝</p>
 <p>開發系</p>
 <ul>
-<li>VS Code</li>
-<li>iTerm2</li>
-<li>Xcode</li>
-<li>Homebrew</li>
-<li>nvm</li>
-<li>ag, rg, fd</li>
+<li class="">VS Code</li>
+<li class="">iTerm2</li>
+<li class="">Xcode</li>
+<li class="">Homebrew</li>
+<li class="">nvm</li>
+<li class="">ag, rg, fd</li>
 </ul>
 <p>Python 預設是 3.9.6，先放著</p>
 <p>文字編輯器之前都是用 BBEdit，這次來試個 CotEditor</p>
@@ -181,19 +181,19 @@
         <summary type="html"><![CDATA[其實沒換東西啊，只是之前 blogger 沒了，改在這記錄一下]]></summary>
         <content type="html"><![CDATA[<p>其實沒換東西啊，只是之前 blogger 沒了，改在這記錄一下</p>
 <ul>
-<li>CPU: Intel Core i5-6400</li>
-<li>Mainboard: ASUS B150M-A/M.2</li>
-<li>Memory: Kingston DDR4-2133 16 GB</li>
-<li>Graphics: Zotac GTX 1650 Super Twin Fan, GDDR6 4 GB</li>
-<li>Storage:
+<li class="">CPU: Intel Core i5-6400</li>
+<li class="">Mainboard: ASUS B150M-A/M.2</li>
+<li class="">Memory: Kingston DDR4-2133 16 GB</li>
+<li class="">Graphics: Zotac GTX 1650 Super Twin Fan, GDDR6 4 GB</li>
+<li class="">Storage:
 <ul>
-<li>Intel 330, 120 GB</li>
-<li>Plextor M9PeGN 1 TB, M.2 PCIe</li>
+<li class="">Intel 330, 120 GB</li>
+<li class="">Plextor M9PeGN 1 TB, M.2 PCIe</li>
 </ul>
 </li>
-<li>Power: Cooler Master New GX 550W</li>
-<li>Monitor: MSI MP243</li>
-<li>OS: Microsoft Windows 10 Professional</li>
+<li class="">Power: Cooler Master New GX 550W</li>
+<li class="">Monitor: MSI MP243</li>
+<li class="">OS: Microsoft Windows 10 Professional</li>
 </ul>
 <p>顯卡是 2020 年，為了玩三國志 14 去買的</p>
 <p>Plextor SSD 是 2019 年中</p>
@@ -204,18 +204,18 @@
 <p>印象中 2016 年底換的時候，是因為 build React Native 太慢，但到現在其實也沒有在寫 React Native...</p>
 <p>最近如果要換的話，稍微排了一下菜單會是</p>
 <ul>
-<li>CPU: Intel Core i5-12400</li>
-<li>Mainboard: MSI PRO B760M-A WIFI DDR4</li>
-<li>Memory: ADATA 或 Kingston 16GB DDR4-3200</li>
-<li>Graphics: 先沿用</li>
-<li>Storage: 三選一
+<li class="">CPU: Intel Core i5-12400</li>
+<li class="">Mainboard: MSI PRO B760M-A WIFI DDR4</li>
+<li class="">Memory: ADATA 或 Kingston 16GB DDR4-3200</li>
+<li class="">Graphics: 先沿用</li>
+<li class="">Storage: 三選一
 <ul>
-<li>Micron Crucial P5 Plus 1TB</li>
-<li>KIOXIA Exceria Pro 1TB</li>
-<li>Solidigm P44 Pro 1TB</li>
+<li class="">Micron Crucial P5 Plus 1TB</li>
+<li class="">KIOXIA Exceria Pro 1TB</li>
+<li class="">Solidigm P44 Pro 1TB</li>
 </ul>
 </li>
-<li>Power: EVGA 650 G6</li>
+<li class="">Power: EVGA 650 G6</li>
 </ul>
 <p>OS 只能上 Windows 11 了耶</p>]]></content>
     </entry>
@@ -227,12 +227,12 @@
         <summary type="html"><![CDATA[記錄一下目前價格]]></summary>
         <content type="html"><![CDATA[<p>記錄一下目前價格</p>
 <ul>
-<li><a href="https://one.google.com/about/plans" target="_blank" rel="noopener noreferrer">Google One</a></li>
-<li><a href="https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans" target="_blank" rel="noopener noreferrer">OneDrive</a></li>
-<li><a href="https://support.apple.com/HT201238" target="_blank" rel="noopener noreferrer">iCloud+</a></li>
-<li><a href="https://www.dropbox.com/plans" target="_blank" rel="noopener noreferrer">Dropbox</a></li>
+<li class=""><a href="https://one.google.com/about/plans" target="_blank" rel="noopener noreferrer" class="">Google One</a></li>
+<li class=""><a href="https://www.microsoft.com/microsoft-365/onedrive/compare-onedrive-plans" target="_blank" rel="noopener noreferrer" class="">OneDrive</a></li>
+<li class=""><a href="https://support.apple.com/HT201238" target="_blank" rel="noopener noreferrer" class="">iCloud+</a></li>
+<li class=""><a href="https://www.dropbox.com/plans" target="_blank" rel="noopener noreferrer" class="">Dropbox</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="google-one">Google One<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#google-one" class="hash-link" aria-label="Direct link to Google One" title="Direct link to Google One">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="google-one">Google One<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#google-one" class="hash-link" aria-label="Direct link to Google One" title="Direct link to Google One" translate="no">​</a></h3>
 <p>前 3 個月優惠就不寫了</p>
 <p>Google One 可以選擇月繳或年繳，以下價格是年繳</p>
 
@@ -266,7 +266,7 @@
 
 
 <table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">-</td><td style="text-align:right">Free</td><td style="text-align:right">15 GB</td></tr><tr><td style="text-align:center">基本 Basic</td><td style="text-align:right">$650</td><td style="text-align:right">100 GB</td></tr><tr><td style="text-align:center">標準 Standard</td><td style="text-align:right">$900</td><td style="text-align:right">200 GB</td></tr><tr><td style="text-align:center">進階 Premium</td><td style="text-align:right">$3300</td><td style="text-align:right">2 TB</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="onedrive">OneDrive<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#onedrive" class="hash-link" aria-label="Direct link to OneDrive" title="Direct link to OneDrive">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="onedrive">OneDrive<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#onedrive" class="hash-link" aria-label="Direct link to OneDrive" title="Direct link to OneDrive" translate="no">​</a></h3>
 <p>分成基本版 (Basic)、個人版 (Personal)、家用版 (Family)</p>
 <p>其中個人版與家用版包含 Office (Word, Excel, PowerPoint, ...)，價格高出不少</p>
 
@@ -300,7 +300,7 @@
 
 
 <table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">-</td><td style="text-align:right">Free</td><td style="text-align:right">5 GB</td></tr><tr><td style="text-align:center">基本 Basic</td><td style="text-align:right">$600</td><td style="text-align:right">100 GB</td></tr><tr><td style="text-align:center">個人 Personal</td><td style="text-align:right">$2190</td><td style="text-align:right">1 TB</td></tr><tr><td style="text-align:center">家用 Family</td><td style="text-align:right">$3190</td><td style="text-align:right">1 TB 六人</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="icloud">iCloud+<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#icloud" class="hash-link" aria-label="Direct link to iCloud+" title="Direct link to iCloud+">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="icloud">iCloud+<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#icloud" class="hash-link" aria-label="Direct link to iCloud+" title="Direct link to iCloud+" translate="no">​</a></h3>
 <p>iCloud+ 是月繳訂閱，以下用乘於 12 的價格</p>
 
 
@@ -336,7 +336,7 @@
 
 
 <table><thead><tr><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:right">Free</td><td style="text-align:right">5 GB</td></tr><tr><td style="text-align:right">$360</td><td style="text-align:right">50 GB</td></tr><tr><td style="text-align:right">$1080</td><td style="text-align:right">200 GB</td></tr><tr><td style="text-align:right">$3600</td><td style="text-align:right">2 TB</td></tr><tr><td style="text-align:right">$10800</td><td style="text-align:right">6 TB</td></tr><tr><td style="text-align:right">$21480</td><td style="text-align:right">12 TB</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dropbox">Dropbox<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#dropbox" class="hash-link" aria-label="Direct link to Dropbox" title="Direct link to Dropbox">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dropbox">Dropbox<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#dropbox" class="hash-link" aria-label="Direct link to Dropbox" title="Direct link to Dropbox" translate="no">​</a></h3>
 <p>只有美金價格</p>
 
 
@@ -374,7 +374,7 @@
 
 
 <table><thead><tr><th style="text-align:center">名稱</th><th style="text-align:right">價格</th><th style="text-align:right">容量</th></tr></thead><tbody><tr><td style="text-align:center">Basic</td><td style="text-align:right">Free</td><td style="text-align:right">2 GB</td></tr><tr><td style="text-align:center">Plus</td><td style="text-align:right">每月 US$9.99</td><td style="text-align:right">2 TB</td></tr><tr><td style="text-align:center">Essentials</td><td style="text-align:right">每月 US$18</td><td style="text-align:right">3 TB</td></tr><tr><td style="text-align:center">Business</td><td style="text-align:right">每月 US$20</td><td style="text-align:right">9 TB</td></tr><tr><td style="text-align:center">Business Plus</td><td style="text-align:right">每月 US$26</td><td style="text-align:right">15 TB</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="心得">心得<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#%E5%BF%83%E5%BE%97" class="hash-link" aria-label="Direct link to 心得" title="Direct link to 心得">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="心得">心得<a href="https://franklai.github.io/blog/2023/12/08/cloud-space-price#%E5%BF%83%E5%BE%97" class="hash-link" aria-label="Direct link to 心得" title="Direct link to 心得" translate="no">​</a></h3>
 <p>其實各家提供的方案不太相同，蠻難單純用價格、容量比較</p>
 <p>Google One 的容量是和最多 5 位使用者共用</p>
 <p>OneDrive 家用仍是每人最多 1 TB，和個人相同上限</p>
@@ -389,7 +389,7 @@
         <updated>2023-12-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在 2023 年 10 月底發表]]></summary>
         <content type="html"><![CDATA[<p>在 2023 年 10 月底發表</p>
-<p><a href="https://docusaurus.io/blog/releases/3.0" target="_blank" rel="noopener noreferrer">https://docusaurus.io/blog/releases/3.0</a></p>
+<p><a href="https://docusaurus.io/blog/releases/3.0" target="_blank" rel="noopener noreferrer" class="">https://docusaurus.io/blog/releases/3.0</a></p>
 <p>剛才把網站升級一下，馬上就遇到 search 也需要升級，然後 config 要調整</p>
 <p>原來從 plugins 搬到 themes 超過一年了啊…</p>
 <p>然後搞笑地升級 <code>prism-react-renderer</code> 後，沒有測試，config 又炸…</p>]]></content>
@@ -403,7 +403,7 @@
         <updated>2022-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[今天才知道…]]></summary>
         <content type="html"><![CDATA[<p>今天才知道…</p>
-<p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/a/33191810</a><br>
+<p><a href="https://stackoverflow.com/a/33191810" target="_blank" rel="noopener noreferrer" class="">https://stackoverflow.com/a/33191810</a><br>
 How to add new line in Markdown presentation?</p>
 <p>在該行的結尾，加上 <strong>2個</strong> 以上的空白，就會有 <code>&lt;br&gt;</code> 效果啦</p>]]></content>
         <category label="Markdown" term="Markdown"/>
@@ -434,7 +434,7 @@ How to add new line in Markdown presentation?</p>
         <content type="html"><![CDATA[<p>當初好像有用 Parcel v1 寫過小 project</p>
 <p>不過就是希望 zero configuration，也沒有嘗試加 plugin</p>
 <p>看到 2021 年 10 月出 v2</p>
-<p><a href="https://parceljs.org/blog/v2/" target="_blank" rel="noopener noreferrer">Announcing Parcel v2!</a></p>
+<p><a href="https://parceljs.org/blog/v2/" target="_blank" rel="noopener noreferrer" class="">Announcing Parcel v2!</a></p>
 <p>including a new JavaScript compiler written in Rust</p>
 <p>這年頭都要用其他語言改寫啊…除了 esbuild 的 GO，Rust 也是個近期熱門選擇</p>]]></content>
         <category label="JavaScript" term="JavaScript"/>
@@ -449,19 +449,19 @@ How to add new line in Markdown presentation?</p>
         <content type="html"><![CDATA[<p>又得遠端啦</p>
 <p>這次嘗試用以下組合</p>
 <ul>
-<li>SSHFS-Win
+<li class="">SSHFS-Win
 <ul>
-<li><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/sshfs-win</a></li>
+<li class=""><a href="https://github.com/billziss-gh/sshfs-win" target="_blank" rel="noopener noreferrer" class="">https://github.com/billziss-gh/sshfs-win</a></li>
 </ul>
 </li>
-<li>WinFsp
+<li class="">WinFsp
 <ul>
-<li><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer">https://github.com/billziss-gh/winfsp</a></li>
+<li class=""><a href="https://github.com/billziss-gh/winfsp" target="_blank" rel="noopener noreferrer" class="">https://github.com/billziss-gh/winfsp</a></li>
 </ul>
 </li>
-<li>SSHFS-Win Manager
+<li class="">SSHFS-Win Manager
 <ul>
-<li><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer">https://github.com/evsar3/sshfs-win-manager</a></li>
+<li class=""><a href="https://github.com/evsar3/sshfs-win-manager" target="_blank" rel="noopener noreferrer" class="">https://github.com/evsar3/sshfs-win-manager</a></li>
 </ul>
 </li>
 </ul>
@@ -479,9 +479,9 @@ How to add new line in Markdown presentation?</p>
         <updated>2022-01-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原來 mpc-hc 後來有 fork 啊…]]></summary>
         <content type="html"><![CDATA[<p>原來 mpc-hc 後來有 fork 啊…</p>
-<p><a href="https://github.com/clsid2/mpc-hc" target="_blank" rel="noopener noreferrer">https://github.com/clsid2/mpc-hc</a></p>
+<p><a href="https://github.com/clsid2/mpc-hc" target="_blank" rel="noopener noreferrer" class="">https://github.com/clsid2/mpc-hc</a></p>
 <p>根據 wikipedia 寫的<br>
-<a href="https://en.wikipedia.org/wiki/Media_Player_Classic" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p>
+<a href="https://en.wikipedia.org/wiki/Media_Player_Classic" target="_blank" rel="noopener noreferrer" class="">https://en.wikipedia.org/wiki/Media_Player_Classic</a></p>
 <p>最早的 Media Player Classic 停在 6.4.9.1，是 2010 年</p>
 <p>後來 fork 了 MPC-HC，最後版本是 1.7.13，是 2017 年</p>
 <p>後來 2018 年 fork 出去，從 1.7.14 陸續更新，現在最新到 1.9.18</p>
