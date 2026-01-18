@@ -1,7 +1,9 @@
 .main-wrapper {
-  background-image: url("/ginza-blurred.jpg");
+  background-image: url("/aomori-2024.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main-wrapper .container > div {
