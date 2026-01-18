@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://franklai.github.io/blog</id>
     <title>Frank 的五四三 Blog</title>
-    <updated>2024-06-01T00:00:00.000Z</updated>
+    <updated>2026-01-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://franklai.github.io/blog"/>
     <subtitle>Frank 的五四三 Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Wi-Fi 7 Devices]]></title>
+        <id>https://franklai.github.io/blog/2026/01/18/wifi-7-devices</id>
+        <link href="https://franklai.github.io/blog/2026/01/18/wifi-7-devices"/>
+        <updated>2026-01-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[目前手上完全沒有支援 Wi-Fi 7 的設備！]]></summary>
+        <content type="html"><![CDATA[<p>目前手上完全沒有支援 Wi-Fi 7 的設備！</p>
+<ul>
+<li class="">Wi-Fi 6E
+<ul>
+<li class="">Samsung Galaxy S24+</li>
+<li class="">iPad Mini (A17 Pro)</li>
+<li class="">ASUS ROG STRIX B760-A GAMING WIFI D4</li>
+</ul>
+</li>
+<li class="">Wi-Fi 6
+<ul>
+<li class="">Apple iPhone 14 Pro Max</li>
+<li class="">Apple iPad Air 5 (2022)</li>
+<li class="">LG gram Z90Q i5-1240p (2022)</li>
+<li class="">MacBook Air 13 M3 (2024)</li>
+<li class="">Apple TV 4K (2022)</li>
+<li class="">PlayStation 5 Slim</li>
+</ul>
+</li>
+<li class="">Wi-Fi 5
+<ul>
+<li class="">Nintendo Switch</li>
+<li class="">Chromecast with Google TV</li>
+<li class="">LG OLED evo C2</li>
+</ul>
+</li>
+</ul>
+<p>Samsung 手機是 S24 Ultra 和 S25 系列有 Wi-Fi 7</p>
+<p>iPhone 從 16 開始</p>
+<p>iPad, MacBook, Apple TV 還沒有 Wi-Fi 7 的機種</p>
+<p>換 router 可以再等等</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wi-Fi 6 Devices]]></title>
         <id>https://franklai.github.io/blog/2024/06/01/wifi-6-devices</id>
